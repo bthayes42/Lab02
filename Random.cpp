@@ -17,7 +17,7 @@ Random* Random::getRandom()
    static Random random;  //initialized when method is called the first time
    return &random;  
 }
-
+//Comment to tesst
 void Random::randomInit()
 {
    srand (time(NULL));
