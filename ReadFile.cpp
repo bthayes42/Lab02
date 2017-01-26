@@ -13,6 +13,8 @@ ReadFile* createReadFile(const char* file_name)
    return rf;
 }
 
+// Commit to test merge tool
+
 void destroyReadFile(ReadFile* rf)
 {
    close(rf);
