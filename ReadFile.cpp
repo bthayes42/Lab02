@@ -14,6 +14,7 @@ ReadFile* createReadFile(const char* file_name)
 }
 
 // Commit to test merge tool again to test
+//change
 
 void destroyReadFile(ReadFile* rf)
 {
