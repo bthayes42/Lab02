@@ -6,11 +6,12 @@
 #include <fstream>
 using namespace std;
 
+//changed 
+
 class ReadFile
 {
 	private:
 		ifstream input_file;
-		const char* file_name;
 		bool _eof;
 		bool closed;
 	

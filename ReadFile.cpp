@@ -9,13 +9,11 @@ ReadFile::ReadFile(const char* file_name)
    input_file.open(file_name);
    closed = false;
    _eof = false;
-
 }
 
 ReadFile::~ReadFile()
 {
    close();
-   delete file_name;
 }
 
 bool ReadFile::eof()
@@ -34,9 +32,6 @@ void ReadFile::close()
 
 String* ReadFile::readLine()
 {
-   if (closed) return NULL;
-   if (_eof) return NULL;
-
    string text;
    _eof = !(getline(input_file, text));
 
