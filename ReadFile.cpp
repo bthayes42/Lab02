@@ -2,6 +2,8 @@
 #include <iostream>
 #include <string>
 
+//changed for the better
+
 ReadFile::ReadFile(const char* file_name)
 {
    input_file.open(file_name);
